@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 220" role="img" aria-labelledby="title desc">
+  <title id="title">Quiz Me logo</title>
+  <desc id="desc">A black and coral Quiz Me wordmark on an acid green field.</desc>
+  <rect width="720" height="220" fill="#d7ff3f" stroke="#151515" stroke-width="12" />
+  <path d="M42 52h26v116H42z" fill="#151515" />
+  <path d="M68 52h52c32 0 52 19 52 48s-20 48-52 48H68zm26 24v48h24c17 0 27-8 27-24s-10-24-27-24z" fill="#151515" />
+  <path d="m143 151 27 25-18 19-27-26z" fill="#ff6b55" />
+  <path d="M203 52h28v116h-28zM231 52h29l26 43 26-43h29v116h-28v-71l-27 43h-1l-27-43v71h-27z" fill="#151515" />
+  <path d="M356 52h31v116h-31zM387 52h31v43h42V52h31v116h-31v-45h-42v45h-31zM509 52h31v91h53v25h-84z" fill="#ff6b55" />
+  <path d="M617 52h28v116h-28zM645 52h31v116h-31z" fill="#151515" />
+</svg>
