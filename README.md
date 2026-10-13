@@ -4,10 +4,6 @@
 
 A small, phone-first flashcard quiz app. Quiz data lives in `data/quizzes.json` and follows the requested question schema inside each quiz's `questions` object.
 
-## Screenshot
-
-![Quiz Me screenshot](docs/quiz-me-screenshot.png)
-
 ## Run locally
 
 ```bash
