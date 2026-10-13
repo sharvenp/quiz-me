@@ -1,6 +1,12 @@
 # Quiz Me
 
-![Quiz Me logo](public/quiz-me-logo.svg)
+<p align="center">
+	<img src="public/quiz-me-logo.svg" alt="Quiz Me logo" width="520" />
+</p>
+
+<p align="center">
+	<a href="https://sharvenp.github.io/quiz-me/">Try it out →</a>
+</p>
 
 A small, phone-first flashcard quiz app. Quiz data lives in `data/quizzes.json` and follows the requested question schema inside each quiz's `questions` object.
 
