@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f4efe6" />
+    <title>Quiz Me // Flashcards</title>
+    <script type="module" crossorigin src="/quiz-me/assets/index-bBbLfgiC.js"></script>
+    <link rel="stylesheet" crossorigin href="/quiz-me/assets/index-CuDNWU-v.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="site-header">
+        <a class="brand" href="./" aria-label="Quiz Me home">QUIZ<span>ME</span></a>
+        <div class="header-mark" aria-hidden="true">///</div>
+      </header>
+
+      <section class="intro" aria-labelledby="page-title">
+        <p class="eyebrow">FLASHCARD TRAINING SYSTEM</p>
+        <h1 id="page-title">Pick a quiz.<br /><em>Keep going.</em></h1>
+        <p class="intro-copy">Fast rounds, fresh order every time. Build your recall one card at a time.</p>
+      </section>
+
+      <section id="quiz-picker" class="panel picker-panel" aria-labelledby="picker-title">
+        <div class="panel-heading">
+          <p class="eyebrow">01 / SELECT A DECK</p>
+          <h2 id="picker-title">What are we learning?</h2>
+        </div>
+        <div id="quiz-list" class="quiz-list" aria-live="polite"></div>
+      </section>
+
+      <section id="study-panel" class="panel study-panel" hidden aria-labelledby="question-heading">
+        <div class="study-topline">
+          <button id="back-button" class="text-button" type="button">← All quizzes</button>
+          <span id="progress-label" class="progress-label">CARD 01</span>
+        </div>
+        <div class="progress-track" aria-hidden="true"><span id="progress-bar"></span></div>
+
+        <div class="question-block">
+          <p id="quiz-label" class="eyebrow">QUIZ</p>
+          <h2 id="question-heading" tabindex="-1"></h2>
+        </div>
+        <div id="choices" class="choices" role="group" aria-label="Answer choices"></div>
+
+        <div id="feedback" class="feedback" role="status" aria-live="polite" hidden>
+          <div class="feedback-heading">
+            <span id="feedback-icon" class="feedback-icon" aria-hidden="true">✓</span>
+            <h3 id="feedback-title"></h3>
+          </div>
+          <p id="feedback-copy"></p>
+          <button id="next-button" class="primary-button" type="button">Next question <span aria-hidden="true">→</span></button>
+        </div>
+      </section>
+
+      <p id="error-message" class="error-message" role="alert" hidden></p>
+      <footer class="site-footer"><span>QUIZ ME / 2026</span><span>MAKE IT STICK.</span></footer>
+    </main>
+  </body>
+</html>
